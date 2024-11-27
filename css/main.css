@@ -1,0 +1,79 @@
+/* DEVELOPER: Joe Heaney, IS117003, Spring 2024 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.8rem;
+}
+
+.bg-primary {
+    width: 80%;
+    height:200px;
+    text-align:center;
+    margin: auto;
+}
+
+#cardrow {
+    width:600px;
+    padding:.2%;
+    margin: auto;
+}
+
+#howtoplaycard {
+    width: 800px;
+    padding:.2%;
+    margin: auto;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: none;
+    text-align:center !important;
+    font-style:bold;
+    color:darkgreen;
+    font-size:180%;
+}
+.card-footer {
+    background-color: white;
+    border-top: none;
+    text-align:center;
+    align-items:center;
+    font-style:bold;
+    padding:3px;
+}
+
+.card-body {
+    font-size:100%;
+}
+
+body {
+    background-color:#FAFAFA;
+}
+
+#cardimg {
+    margin: auto;
+}
+
+.list-group-item {
+    font-size:145%;
+}
+
+#howtoplay {
+    font-size:250%;
+}
+
+.list-group-small {
+    font-size:90%;
+}
+
+@media (max-width: 1280px) {
+    .container-fluid {
+        margin-bottom: 100px; /* Add space between the content and the footer */
+    }
+    
+}
